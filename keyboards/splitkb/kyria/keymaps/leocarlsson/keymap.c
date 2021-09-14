@@ -67,8 +67,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  *                        `----------------------------------'  `----------------------------------'
  */
     [_ALPHA] = LAYOUT(
-     KC_TAB  , KC_Q ,  KC_W   ,  KC_E  ,   KC_R ,   KC_T ,                                        KC_Y,   KC_U ,  KC_I ,   KC_O ,  KC_P   , SE_ARNG,
-     CMD_ESC , KC_A ,  KC_S   ,  KC_D  ,   KC_F ,   KC_G ,                                        KC_H,   KC_J ,  KC_K ,   KC_L ,  SE_ODIA,SE_ADIA,
+     KC_TAB  , KC_Q ,  KC_W   ,  KC_E  ,   KC_R ,   KC_T ,                                     KC_Y,   KC_U ,  KC_I ,   KC_O ,  KC_P,   SE_ARNG,
+     CMD_ESC , KC_A ,  KC_S   ,  KC_D  ,   KC_F ,   KC_G ,                                     KC_H,   KC_J ,  KC_K ,   KC_L ,  SE_ODIA,SE_ADIA,
      KC_LSFT , KC_Z ,  KC_X   ,  KC_C  ,   KC_V ,   KC_B , SYM , NUM_ENT,    KC_BSPC, NAV_SPC, KC_N,   KC_M ,  SE_COMM, SE_DOT, SE_MINS, KC_RSFT,
                                 KC_LCTL, KC_LALT, KC_LGUI, SYM , NUM_ENT,    KC_BSPC, NAV_SPC, KC_RGUI, KC_RALT, KC_RCTL
     ),
@@ -152,7 +152,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  */
     [_SYM] = LAYOUT(
      _______, SE_EXLM, SE_AT ,  SE_LCBR , SE_RCBR, SE_PIPE,                                     SE_RABK, SE_EQL , SE_LABK, _______, _______, SE_BSLS,
-     _______, SE_HASH, SE_DLR,  SE_LPRN , SE_RPRN, SE_GRV,                                      SE_PLUS, SE_MINS, SE_SLSH, SE_ASTR, SE_PERC, SE_DQUO, 
+     _______, SE_HASH, SE_DLR,  SE_LPRN , SE_RPRN, SE_GRV,                                      SE_PLUS, SE_MINS, SE_SLSH, SE_ASTR, SE_PERC, SE_DQUO,
      _______, SE_PERC, SE_CIRC, SE_LBRC,  SE_RBRC, SE_TILD, _______, _______, _______, _______, SE_AMPR, SE_EQL, SE_QUES, _______,  _______, _______,
                                  _______, _______, _______, _______, _______, _______, _______, _______, _______, _______
     ),
